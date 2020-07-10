@@ -3,10 +3,10 @@
 @import url(./__lang-link/header__lang-link.css);
 
 .header {
+    background: #2A2C2F;
     max-width: 1280px;
     min-width: 320px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background: #2A2C2F;
 }
