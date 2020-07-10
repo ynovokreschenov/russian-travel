@@ -1,0 +1,13 @@
+.header__lang-link {
+    margin-right: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__lang-link_active {
+    text-decoration: underline;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
