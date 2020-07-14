@@ -9,10 +9,9 @@
     width: 100%;
     align-self: center;
     margin: 92px 0 0 0;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 @media screen and (max-width: 768px) { /*475px*/

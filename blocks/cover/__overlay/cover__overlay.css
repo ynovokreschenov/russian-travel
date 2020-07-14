@@ -1,9 +1,12 @@
 .cover__overlay {
-    width: 100%;
+    /*width: 100%;*/
     background: #2A2C2F;
     opacity: 0.3;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    z-index: 3;
 }
 
-.cover__background:hover {
+.cover__overlay:hover {
     opacity: 0.8;
 }
