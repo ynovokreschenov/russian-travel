@@ -1,9 +1,9 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang/header__lang.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-    background: #2A2C2F;
     max-width: 1280px;
     min-width: 320px;
     width: 100%;

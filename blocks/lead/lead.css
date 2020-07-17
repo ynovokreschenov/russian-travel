@@ -1,5 +1,6 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./__figure/lead__figure.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 
@@ -7,4 +8,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
+    margin: 64px 0 0 0;
+    max-width: 984px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        margin: 56px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead {
+        margin: 40px 0 0 0;
+    }
 }

@@ -1,9 +1,16 @@
 .footer__links {
-    margin-left: 48px;
+    margin: 0 0 0 48px;
+    padding: 0;
     display: flex;
 }
 
 @media screen and (max-width: 768px) {
+    .footer__links {
+        margin: 0 0 0 24px;
+    }
+}
+
+@media screen and (max-width: 720px) {
     .footer__links {
         flex-direction: column;
         margin: 0 16px 0 16px;
